@@ -15,6 +15,7 @@
         margin: 40px auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
     .navbar-logo #logo {
@@ -61,7 +62,6 @@
     }
     
     .btn {
-        margin-left: 25px;
         background-color: #D6000D;
         border-radius: 10px;
         padding: 12px 70px;
@@ -71,11 +71,20 @@
         color: #ffff;
     }
     
-    @media (max-width: 748px) {
+    @media (max-width: 800px) {
         .main-navbar {
+            display: flex;
             flex-direction: column;
         }
+        .navbar-links {
+            display: flex;
+        }
         .navbar-logo {
-            flex-wrap: wrap;
+            width: 100%;
+            text-align: center;
+        }
+        .btn {
+            display: none;
+            margin: 0;
         }
     }
