@@ -1,36 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.navbar {
-    max-width: 1280px;
-    margin: 0 auto;
-    font-size: 1.5rem;
-    padding: 50px 0;
-}
-
-.site-navigation {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    text-decoration: none;
-}
-
-.navbar li {
-    list-style-type: none;
-    padding: 1rem;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar-logo {
-    flex: 1;
-    font-size: 1.5rem;
-    user-select: none;
-    font-weight: bold;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .main-navbar {
+        max-width: 1280px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar-logo #logo {
+        text-decoration: none;
+        font-size: 4rem;
+        font-style: italic;
+        color: #111111;
+        font-weight: bold;
+    }
+    
+    .navbar-logo span {
+        color: #D6000D;
+        font-size: 4rem;
+    }
+    
+    .site-navigation {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    
+    .navbar-links {
+        margin: 20px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    
+    .navbar-links a {
+        text-decoration: none;
+        color: #111111;
+    }
+    
+    .navbar-links a:hover {
+        text-decoration: none;
+        color: #ff5866;
+    }
+    
+    .btn .btn-login a:hover {
+        color: #111111;
+    }
+    
+    .btn {
+        margin-left: 25px;
+        background-color: #D6000D;
+        border-radius: 10px;
+        padding: 12px 70px;
+    }
+    
+    .navbar-links .btn-login {
+        color: #ffff;
+    }
+    
+    @media (max-width: 748px) {
+        .main-navbar {
+            flex-direction: column;
+        }
+        .navbar-logo {
+            flex-wrap: wrap;
+        }
+    }
