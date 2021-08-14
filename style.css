@@ -65,10 +65,59 @@
         background-color: #D6000D;
         border-radius: 10px;
         padding: 12px 70px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffff;
     }
     
     .navbar-links .btn-login {
         color: #ffff;
+    }
+    /* Home */
+    
+    .img1 {
+        max-width: 300px;
+        margin: 32px;
+        width: 100%;
+    }
+    
+    .container-home {
+        max-width: 1980px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .texto {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .texto h2 {
+        margin-bottom: 10px;
+    }
+    
+    .texto h3 {
+        font-size: 4rem;
+        color: #D6000D;
+    }
+    
+    .div-btn {
+        margin-top: 30px;
+    }
+    
+    .btn-solicitar {
+        background-color: #D6000D;
+        border-radius: 10px;
+        padding: 12px 70px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffff;
+    }
+    
+    .div-btn .btn-solicitar a:hover {
+        color: cadetblue;
     }
     
     @media (max-width: 800px) {
@@ -86,5 +135,8 @@
         .btn {
             display: none;
             margin: 0;
+        }
+        .container-home {
+            flex-direction: column;
         }
     }
