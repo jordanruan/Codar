@@ -53,12 +53,7 @@
     }
     
     .navbar-links a:hover {
-        text-decoration: none;
-        color: #ff5866;
-    }
-    
-    .btn .btn-login a:hover {
-        color: #111111;
+        color: #e9a8ad;
     }
     
     .btn {
@@ -68,6 +63,10 @@
         text-align: center;
         text-decoration: none;
         color: #ffff;
+    }
+    
+    .btn:hover {
+        color: #e9a8ad;
     }
     
     .navbar-links .btn-login {
@@ -101,23 +100,11 @@
     .texto h3 {
         font-size: 4rem;
         color: #D6000D;
-    }
-    
-    .div-btn {
-        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .btn-solicitar {
-        background-color: #D6000D;
-        border-radius: 10px;
-        padding: 12px 70px;
-        text-align: center;
-        text-decoration: none;
-        color: #ffff;
-    }
-    
-    .div-btn .btn-solicitar a:hover {
-        color: cadetblue;
+        width: 290px;
     }
     
     @media (max-width: 800px) {
@@ -132,11 +119,14 @@
             width: 100%;
             text-align: center;
         }
-        .btn {
+        .btn-login {
             display: none;
             margin: 0;
         }
         .container-home {
             flex-direction: column;
+        }
+        .btn-solicitar {
+            width: 280px;
         }
     }
