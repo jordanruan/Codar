@@ -72,7 +72,7 @@
     .navbar-links .btn-login {
         color: #ffff;
     }
-    /* Home */
+    /*------ Home -------- */
     
     .img1 {
         max-width: 300px;
@@ -105,6 +105,29 @@
     
     .btn-solicitar {
         width: 290px;
+    }
+    /*------ Serviços -------- */
+    
+    .container-servicos {
+        max-width: 1280px;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .navigation-servicos li {
+        list-style-type: none;
+        padding: 4px;
+        font-size: 20px;
+        margin: 16px 0;
+    }
+    
+    .container-servicos .navigation-servicos .feather {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 16px;
+        stroke: #D6000D;
     }
     
     @media (max-width: 800px) {
