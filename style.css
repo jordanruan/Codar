@@ -108,13 +108,6 @@
     }
     /*------ Serviços -------- */
     
-    .container-servicos {
-        max-width: 1280px;
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-    }
-    
     .navigation-servicos li {
         list-style-type: none;
         padding: 4px;
@@ -128,6 +121,63 @@
         vertical-align: middle;
         margin-right: 16px;
         stroke: #D6000D;
+    }
+    
+    .code-img {
+        width: 300px;
+    }
+    
+    .container-servicos {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 50px;
+        margin-bottom: 10rem;
+    }
+    /*------ Contato -------- */
+    
+    .container-contato {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 55px;
+        margin-bottom: 10rem;
+    }
+    
+    .texto-contato {
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .form-div input {
+        padding: 15px 15px;
+        border-radius: 10px;
+        border: 0px none;
+        font-size: 1em;
+        text-align: center;
+        background: #d3d3d3;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        align-self: center;
+    }
+    
+    .form-div button {
+        padding: 15px 48px;
+        border-radius: 10px;
+        border: 0px none;
+        font-size: 1em;
+        text-align: center;
+        background: #d6000d;
+        color: white;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    button:hover {
+        color: #e9a8ad;
     }
     
     @media (max-width: 800px) {
