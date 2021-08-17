@@ -30,6 +30,6 @@ Desafio de Front-End proposto pelo Dev Challenge, site para desenvolvedores melh
 
 ---
 
-## License
+## License ©️
 
-Copyright © 2021 Jordan Ruan / DevChallenge
+Copyright - 2021 Jordan Ruan / DevChallenge
