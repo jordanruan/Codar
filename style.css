@@ -1,247 +1,312 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    html,
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .main-navbar {
-        max-width: 1280px;
-        margin: 40px auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .navbar-logo #logo {
-        text-decoration: none;
-        font-size: 4rem;
-        font-style: italic;
-        color: #111111;
-        font-weight: bold;
-    }
-    
-    .navbar-logo span {
-        color: #D6000D;
-        font-size: 4rem;
-    }
-    
-    .site-navigation {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 15px;
-    }
-    
-    .navbar-links {
-        margin: 20px;
-        text-decoration: none;
-        list-style: none;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-    }
-    
-    .navbar-links a {
-        text-decoration: none;
-        color: #111111;
-    }
-    
-    .navbar-links a:hover {
-        color: #e9a8ad;
-    }
-    
-    .btn {
-        background-color: #D6000D;
-        border-radius: 10px;
-        padding: 12px 70px;
-        text-align: center;
-        text-decoration: none;
-        color: #ffff;
-    }
-    
-    .btn:hover {
-        color: #e9a8ad;
-    }
-    
-    .navbar-links .btn-login {
-        color: #ffff;
-    }
-    /*------ Home -------- */
-    
-    .img1 {
-        max-width: 300px;
-        margin: 32px;
-        width: 100%;
-    }
-    
-    .container-home {
-        max-width: 1980px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .texto {
-        padding: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .texto h2 {
-        margin-bottom: 10px;
-    }
-    
-    .texto h3 {
-        font-size: 4rem;
-        color: #D6000D;
-        margin-bottom: 30px;
-    }
-    
-    .btn-solicitar {
-        width: 290px;
-    }
-    /*------ Serviços -------- */
-    
-    .navigation-servicos li {
-        list-style-type: none;
-        padding: 4px;
-        font-size: 20px;
-        margin: 16px 0;
-    }
-    
-    .container-servicos .navigation-servicos .feather {
-        width: 20px;
-        height: 20px;
-        vertical-align: middle;
-        margin-right: 16px;
-        stroke: #D6000D;
-    }
-    
-    .code-img {
-        width: 300px;
-    }
-    
-    .container-servicos {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        margin-top: 50px;
-        margin-bottom: 10rem;
-    }
-    /*------ Contato -------- */
-    
-    .container-contato {
-        max-width: 960px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-left: 55px;
-        margin-bottom: 10rem;
-    }
-    
-    .texto-contato {
-        font-size: 1.5rem;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    
-    .form-div input {
-        padding: 15px 15px;
-        border-radius: 10px;
-        border: 0px none;
-        font-size: 1em;
-        text-align: center;
-        background: #d3d3d3;
-        font-family: "Roboto", Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        align-self: center;
-    }
-    
-    .form-div button {
-        padding: 15px 48px;
-        border-radius: 10px;
-        border: 0px none;
-        font-size: 1em;
-        text-align: center;
-        background: #d6000d;
-        color: white;
-        font-family: "Roboto", Arial, Helvetica, sans-serif;
-        font-weight: 600;
-    }
-    
-    button:hover {
-        color: #e9a8ad;
-    }
-    /*------ Cards -------- */
-    
-    .cards {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 45px;
-    }
-    
-    .cards .card {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 405px;
-        height: 165px;
-        padding: 15px;
-        border-radius: 5px;
-        margin: 25px 0;
-        background-color: #efefef
-    }
-    
-    .info-actor p {
-        margin: 3px 0;
-    }
-    
-    .info-actor h3 {
-        margin: 5px 0;
-    }
-    
-    .info-cards {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .container-cards {
-        max-width: 1020px;
-        margin: 30px auto;
-        align-items: center;
-        text-align: left;
-    }
-    /*------ Responsive -------- */
-    
-    @media (max-width: 800px) {
-        .main-navbar {
-            display: flex;
-            flex-direction: column;
-        }
-        .navbar-links {
-            display: flex;
-        }
-        .navbar-logo {
-            width: 100%;
-            text-align: center;
-        }
-        .btn-login {
-            display: none;
-            margin: 0;
-        }
-        .container-home {
-            flex-direction: column;
-        }
-        .btn-solicitar {
-            width: 280px;
-        }
-    }
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            html,
+            body {
+                font-family: 'Roboto', sans-serif;
+                overflow-x: hidden;
+            }
+            
+            .main-navbar {
+                max-width: 1280px;
+                margin: 40px auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .navbar-logo #logo {
+                text-decoration: none;
+                font-size: 4rem;
+                font-style: italic;
+                color: #111111;
+                font-weight: bold;
+            }
+            
+            .navbar-logo span {
+                color: #D6000D;
+                font-size: 4rem;
+            }
+            
+            .site-navigation {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 15px;
+            }
+            
+            .navbar-links {
+                margin: 20px;
+                text-decoration: none;
+                list-style: none;
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+            }
+            
+            .navbar-links a {
+                text-decoration: none;
+                color: #111111;
+            }
+            
+            .navbar-links a:hover {
+                color: #e9a8ad;
+            }
+            
+            .btn {
+                background-color: #D6000D;
+                border-radius: 10px;
+                padding: 12px 70px;
+                text-align: center;
+                text-decoration: none;
+                color: #ffff;
+            }
+            
+            .btn:hover {
+                color: #e9a8ad;
+            }
+            
+            .navbar-links .btn-login {
+                color: #ffff;
+            }
+            /*------ Home -------- */
+            
+            .img1 {
+                max-width: 300px;
+                margin: 32px;
+                width: 100%;
+            }
+            
+            .container-home {
+                max-width: 1980px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .texto {
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .texto h2 {
+                margin-bottom: 10px;
+            }
+            
+            .texto h3 {
+                font-size: 4rem;
+                color: #D6000D;
+                margin-bottom: 30px;
+            }
+            
+            .btn-solicitar {
+                width: 290px;
+            }
+            /*------ Serviços -------- */
+            
+            .navigation-servicos li {
+                list-style-type: none;
+                padding: 4px;
+                font-size: 20px;
+                margin: 16px 0;
+            }
+            
+            .container-servicos .navigation-servicos .feather {
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+                margin-right: 16px;
+                stroke: #D6000D;
+            }
+            
+            .code-img {
+                width: 300px;
+            }
+            
+            .container-servicos {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 50px;
+                margin-bottom: 10rem;
+            }
+            /*------ Contato -------- */
+            
+            .container-contato {
+                max-width: 960px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                padding-left: 55px;
+                margin-bottom: 10rem;
+            }
+            
+            .texto-contato {
+                font-size: 1.5rem;
+                padding: 10px;
+                margin-top: 20px;
+            }
+            
+            .form-div input {
+                padding: 15px 15px;
+                border-radius: 10px;
+                border: 0px none;
+                font-size: 1em;
+                text-align: center;
+                background: #d3d3d3;
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                align-self: center;
+            }
+            
+            .form-div button {
+                padding: 15px 48px;
+                border-radius: 10px;
+                border: 0px none;
+                font-size: 1em;
+                text-align: center;
+                background: #d6000d;
+                color: white;
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+                font-weight: 600;
+            }
+            
+            button:hover {
+                color: #e9a8ad;
+            }
+            /*------ Cards -------- */
+            
+            .cards {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-bottom: 45px;
+            }
+            
+            .cards .card {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 405px;
+                height: 165px;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 25px 0;
+                background-color: #efefef
+            }
+            
+            .info-actor p {
+                margin: 3px 0;
+            }
+            
+            .info-actor h3 {
+                margin: 5px 0;
+            }
+            
+            .info-cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .container-cards {
+                max-width: 1020px;
+                margin: 30px auto;
+                align-items: center;
+                text-align: left;
+            }
+            
+            footer {
+                width: 100%;
+                background-color: #111111;
+                color: white;
+                padding: 20px 0;
+            }
+            
+            footer section {
+                width: 904px;
+                align-items: center;
+                margin: 30px auto;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            article h1 {
+                font-size: 2rem;
+                font-style: italic;
+            }
+            
+            article ul li {
+                text-decoration: none;
+                list-style-type: none;
+            }
+            
+            footer .feather {
+                width: 30px;
+                height: 30px;
+                stroke: #d6000d;
+                stroke-width: 2;
+                vertical-align: middle;
+                margin-top: 4px;
+                margin-right: 16px;
+            }
+            
+            footer article:last-child ul li {
+                display: inline-block;
+            }
+            /*------ Responsive -------- */
+            
+            @media only screen and (max-width: 800px) {
+                .main-navbar {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .navbar-links {
+                    display: flex;
+                }
+                .navbar-logo {
+                    width: 100%;
+                    text-align: center;
+                }
+                .btn-login {
+                    display: none;
+                    margin: 0;
+                }
+                .container-home {
+                    flex-direction: column;
+                }
+                .btn-solicitar {
+                    width: 280px;
+                }
+                .texto h2,
+                h3 {
+                    text-align: center;
+                }
+                .container-servicos {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .form-div input {
+                    margin-bottom: 10px;
+                }
+                .cards {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+                footer .container {
+                    flex-direction: column;
+                    width: auto;
+                    text-align: center;
+                }
+                footer article {
+                    margin: 15px 0;
+                }
+            }
