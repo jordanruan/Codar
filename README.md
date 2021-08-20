@@ -1,4 +1,4 @@
-# Codar 📊
+# Codar 🌐
   ### Landing page de Site de uma empresa que desenvolve sites. 
   <a href="https://jordanruan.github.io/Codar/">Finalizado 🚀</a>
 
