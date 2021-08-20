@@ -17,7 +17,7 @@ Desafio de Front-End proposto pelo Dev Challenge, site para desenvolvedores melh
 
 ---
 
-## License 👨‍💻
+## Author 👨‍💻
 - Email: jordanruan@hotmail.com 
 - GitHub: [@jordanruan](https://github.com/jordanruan)
 - LinkedIn: [@jordanruan](https://linkedin.com/in/jordanruan)
