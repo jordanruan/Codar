@@ -18,7 +18,6 @@ Desafio de Front-End proposto pelo Dev Challenge, site para desenvolvedores melh
 
 ## Author 👨‍💻
 
-  # Jordan Ruan
 
   
 - Email: jordanruan@hotmail.com 
