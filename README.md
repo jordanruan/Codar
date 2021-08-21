@@ -3,7 +3,6 @@
   <a href="https://jordanruan.github.io/Codar/">Finalizado 🚀</a>
 
 ![banner](https://github.com/jordanruan/Codar/blob/master/assets/modelo-desktop.png?raw=true)
-![banner](https://github.com/jordanruan/Codar/blob/master/assets/modelo-mobile.png?raw=true)
 
 
 ---
